@@ -1,0 +1,75 @@
+--- a/node_modules/expo-audio/ios/AudioModule.swift
++++ b/node_modules/expo-audio/ios/AudioModule.swift
+@@ -229,6 +229,8 @@
+           return
+         }
+         let rate = player.currentRate > 0 ? player.currentRate : 1.0
++        reproDeactivationGeneration.withLock { $0 += 1 }
++        reproEvent("play")
+         player.play(at: rate)
+         self.activateSession(for: player)
+       }
+@@ -954,14 +956,28 @@
+   }
+ 
+   private func deactivateSession() {
++    // REPRO: E3 never deactivates a mixable session.
++    if reproArm == "E3", case .mixWithOthers = interruptionMode {
++      return
++    }
++    let generation = reproDeactivationGeneration.withLock { $0 }
++    reproEvent("deactivate_scheduled")
+     sessionQueue.asyncAfter(deadline: .now() + .milliseconds(100)) { [weak self] in
+-      guard let self,
+-        self.sessionIsActive,
++      guard let self else { return }
++      // REPRO: E2 cancels a pending deactivation once a newer play() arrived.
++      if reproArm == "E2", generation != reproDeactivationGeneration.withLock({ $0 }) {
++        reproEvent("deactivate_cancelled")
++        return
++      }
++      let inUse = self.isSessionInUse
++      reproEvent("deactivate_fired inUse=\(inUse) active=\(self.sessionIsActive)")
++      guard self.sessionIsActive,
+         self.audioSessionActivityKeepers.isEmpty,
+-        !self.isSessionInUse else {
++        !inUse else {
+         return
+       }
+       self.applySessionActive(false)
++      reproEvent("deactivate_done")
+     }
+   }
+ 
+@@ -1027,5 +1043,31 @@
+       }
+     }
+     #endif
++  }
++}
++
++
++// REPRO instrumentation, not part of expo-audio.
++private let reproArm = ProcessInfo.processInfo.arguments
++  .first { $0.hasPrefix("--arm=") }?.dropFirst("--arm=".count).description ?? ""
++private let reproDeactivationGeneration = ReproLocked(0)
++private let reproEventFile: FileHandle? = {
++  let run = ProcessInfo.processInfo.arguments.first { $0.hasPrefix("--run=") }?.dropFirst("--run=".count).description ?? "manual"
++  let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("events-\(run).log")
++  FileManager.default.createFile(atPath: url.path, contents: nil)
++  return try? FileHandle(forWritingTo: url)
++}()
++private let reproEventQueue = DispatchQueue(label: "repro.events")
++private func reproEvent(_ name: String) {
++  let ms = Double(DispatchTime.now().uptimeNanoseconds) / 1_000_000
++  reproEventQueue.async { reproEventFile?.write(Data(String(format: "%.1f %@\n", ms, name).utf8)) }
++}
++private final class ReproLocked {
++  private let lock = NSLock()
++  private var value: Int
++  init(_ value: Int) { self.value = value }
++  func withLock<T>(_ body: (inout Int) -> T) -> T {
++    lock.lock(); defer { lock.unlock() }
++    return body(&value)
+   }
+ }

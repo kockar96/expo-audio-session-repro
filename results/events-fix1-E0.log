@@ -1,0 +1,342 @@
+10870047.2 play
+10870811.7 deactivate_scheduled
+10870848.9 play
+10870914.1 deactivate_fired inUse=true active=true
+10871480.8 play
+10872247.8 deactivate_scheduled
+10872352.9 deactivate_fired inUse=false active=true
+10872406.4 deactivate_done
+10872566.0 play
+10873180.7 play
+10873397.6 deactivate_scheduled
+10873497.9 deactivate_fired inUse=false active=true
+10873499.1 play
+10873537.5 deactivate_done
+10876514.0 play
+10877335.1 deactivate_scheduled
+10877383.8 play
+10877439.0 deactivate_fired inUse=true active=true
+10878014.0 play
+10878784.6 deactivate_scheduled
+10878885.7 deactivate_fired inUse=false active=true
+10878943.8 deactivate_done
+10878965.2 play
+10879614.0 play
+10879831.1 deactivate_scheduled
+10879931.9 deactivate_fired inUse=false active=true
+10879967.8 deactivate_done
+10880048.4 play
+10880680.8 play
+10880897.9 deactivate_scheduled
+10880999.5 deactivate_fired inUse=false active=true
+10881034.8 deactivate_done
+10881049.0 play
+10881680.8 play
+10881897.8 deactivate_scheduled
+10881947.6 play
+10882003.0 deactivate_fired inUse=true active=true
+10882580.9 play
+10882797.9 deactivate_scheduled
+10882900.7 play
+10882903.2 deactivate_fired inUse=false active=true
+10883001.0 deactivate_done
+10885914.8 play
+10886181.9 deactivate_scheduled
+10886231.4 play
+10886286.8 deactivate_fired inUse=true active=true
+10886864.7 play
+10887634.4 deactivate_scheduled
+10887739.6 deactivate_fired inUse=false active=true
+10887814.1 deactivate_done
+10887816.8 play
+10890831.5 play
+10891655.9 deactivate_scheduled
+10891761.1 deactivate_fired inUse=false active=true
+10891793.9 deactivate_done
+10891866.1 play
+10892498.2 play
+10893276.8 deactivate_scheduled
+10893381.6 deactivate_fired inUse=false active=true
+10893384.8 play
+10893437.2 deactivate_done
+10896398.4 play
+10896665.3 deactivate_scheduled
+10896717.2 play
+10896766.2 deactivate_fired inUse=true active=true
+10897348.4 play
+10897565.4 deactivate_scheduled
+10897651.6 play
+10897670.7 deactivate_fired inUse=false active=true
+10898346.3 deactivate_done
+10898415.1 play
+10899185.3 deactivate_scheduled
+10899290.5 deactivate_fired inUse=false active=true
+10899323.3 deactivate_done
+10899333.2 play
+10899965.1 play
+10900182.1 deactivate_scheduled
+10900237.0 play
+10900287.3 deactivate_fired inUse=true active=true
+10900865.2 play
+10901082.1 deactivate_scheduled
+10901187.4 deactivate_fired inUse=false active=true
+10901265.1 deactivate_done
+10901400.5 play
+10902031.6 play
+10902813.2 deactivate_scheduled
+10902915.0 deactivate_fired inUse=false active=true
+10902934.2 play
+10902949.1 deactivate_done
+10905948.3 play
+10906215.2 deactivate_scheduled
+10906320.5 deactivate_fired inUse=false active=true
+10906334.4 deactivate_done
+10906432.7 play
+10907065.0 play
+10907839.1 deactivate_scheduled
+10907918.1 play
+10907944.2 deactivate_fired inUse=true active=true
+10908548.3 play
+10908781.8 deactivate_scheduled
+10908868.1 play
+10908882.6 deactivate_fired inUse=false active=true
+10908975.4 deactivate_done
+10911881.7 play
+10912660.2 deactivate_scheduled
+10912765.2 deactivate_fired inUse=false active=true
+10912822.7 play
+10912823.5 deactivate_done
+10915831.8 play
+10916098.9 deactivate_scheduled
+10916200.2 deactivate_fired inUse=false active=true
+10916220.3 deactivate_done
+10916221.2 play
+10919231.8 play
+10919498.8 deactivate_scheduled
+10919604.0 deactivate_fired inUse=false active=true
+10919617.9 deactivate_done
+10919682.7 play
+10920298.5 play
+10920515.4 deactivate_scheduled
+10920620.6 deactivate_fired inUse=false active=true
+10920651.9 play
+10920659.7 deactivate_done
+10923682.0 play
+10923948.8 deactivate_scheduled
+10924053.9 deactivate_fired inUse=false active=true
+10924066.8 play
+10924080.2 deactivate_done
+10927082.2 play
+10927907.2 deactivate_scheduled
+10928011.8 deactivate_fired inUse=false active=true
+10928035.3 play
+10928043.8 deactivate_done
+10931048.8 play
+10931872.0 deactivate_scheduled
+10931977.4 deactivate_fired inUse=false active=true
+10932008.8 deactivate_done
+10932082.9 play
+10932715.3 play
+10933492.4 deactivate_scheduled
+10933595.0 deactivate_fired inUse=false active=true
+10933630.3 deactivate_done
+10933699.5 play
+10934315.3 play
+10934532.1 deactivate_scheduled
+10934637.4 deactivate_fired inUse=false active=true
+10934676.0 deactivate_done
+10934852.0 play
+10935481.9 play
+10936266.3 deactivate_scheduled
+10936371.4 deactivate_fired inUse=false active=true
+10936425.5 deactivate_done
+10936449.5 play
+10937081.8 play
+10937865.6 deactivate_scheduled
+10937970.8 deactivate_fired inUse=false active=true
+10938025.6 deactivate_done
+10938185.1 play
+10938815.1 play
+10939593.7 deactivate_scheduled
+10939684.9 play
+10939698.5 deactivate_fired inUse=false active=true
+10939751.4 deactivate_done
+10942698.1 play
+10943476.7 deactivate_scheduled
+10943581.5 deactivate_fired inUse=false active=true
+10943635.4 deactivate_done
+10943784.9 play
+10944431.3 play
+10944648.4 deactivate_scheduled
+10944751.0 play
+10944753.5 deactivate_fired inUse=false active=true
+10944810.3 deactivate_done
+10947764.4 play
+10948588.6 deactivate_scheduled
+10948693.8 deactivate_fired inUse=false active=true
+10948727.3 deactivate_done
+10948733.1 play
+10949364.2 play
+10950146.7 deactivate_scheduled
+10950247.7 deactivate_fired inUse=false active=true
+10950251.9 play
+10950284.0 deactivate_done
+10953264.2 play
+10954086.8 deactivate_scheduled
+10954099.3 play
+10954189.1 deactivate_fired inUse=true active=true
+10954714.1 play
+10954931.1 deactivate_scheduled
+10955036.3 deactivate_fired inUse=false active=true
+10955050.6 play
+10955098.8 deactivate_done
+10958063.9 play
+10958888.5 deactivate_scheduled
+10958933.8 play
+10958991.6 deactivate_fired inUse=true active=true
+10959563.8 play
+10959780.8 deactivate_scheduled
+10959833.6 play
+10959886.1 deactivate_fired inUse=true active=true
+10960463.8 play
+10961228.4 deactivate_scheduled
+10961330.6 deactivate_fired inUse=false active=true
+10961350.3 play
+10961438.1 deactivate_done
+10964363.8 play
+10965185.4 deactivate_scheduled
+10965199.0 play
+10965285.7 deactivate_fired inUse=true active=true
+10965813.8 play
+10966030.7 deactivate_scheduled
+10966135.9 deactivate_fired inUse=false active=true
+10966150.4 play
+10966199.2 deactivate_done
+10969163.4 play
+10969985.8 deactivate_scheduled
+10970083.3 play
+10970092.7 deactivate_fired inUse=false active=true
+10970124.3 deactivate_done
+10973096.5 play
+10973868.0 deactivate_scheduled
+10973972.8 deactivate_fired inUse=false active=true
+10973982.2 play
+10974028.2 deactivate_done
+10976996.4 play
+10977820.6 deactivate_scheduled
+10977925.3 deactivate_fired inUse=false active=true
+10977950.3 play
+10977958.8 deactivate_done
+10980963.0 play
+10981785.9 deactivate_scheduled
+10981891.0 deactivate_fired inUse=false active=true
+10981898.9 play
+10981924.3 deactivate_done
+10984912.6 play
+10985737.9 deactivate_scheduled
+10985843.1 deactivate_fired inUse=false active=true
+10985849.2 play
+10985875.3 deactivate_done
+10988862.2 play
+10989129.1 deactivate_scheduled
+10989175.2 play
+10989234.2 deactivate_fired inUse=true active=true
+10989812.1 play
+10990029.1 deactivate_scheduled
+10990098.7 play
+10990133.6 deactivate_fired inUse=true active=true
+10990728.7 play
+10991499.3 deactivate_scheduled
+10991604.5 deactivate_fired inUse=false active=true
+10991632.1 play
+10991723.2 deactivate_done
+10994644.8 play
+10995424.3 deactivate_scheduled
+10995498.1 play
+10995528.3 deactivate_fired inUse=true active=true
+10996144.5 play
+10996917.6 deactivate_scheduled
+10996997.7 play
+10997022.7 deactivate_fired inUse=true active=true
+10997627.6 play
+10997861.1 deactivate_scheduled
+10997966.3 deactivate_fired inUse=false active=true
+10997980.9 play
+10998078.0 deactivate_done
+11000993.7 play
+11001816.7 deactivate_scheduled
+11001913.7 play
+11001923.0 deactivate_fired inUse=false active=true
+11001954.6 deactivate_done
+11004926.5 play
+11005143.3 deactivate_scheduled
+11005213.1 play
+11005243.7 deactivate_fired inUse=true active=true
+11005843.0 play
+11006059.8 deactivate_scheduled
+11006162.1 deactivate_fired inUse=false active=true
+11006243.9 deactivate_done
+11006277.3 play
+11006909.5 play
+11007126.4 deactivate_scheduled
+11007231.6 deactivate_fired inUse=false active=true
+11007246.0 play
+11007268.5 deactivate_done
+11010259.4 play
+11010476.1 deactivate_scheduled
+11010581.3 deactivate_fired inUse=false active=true
+11010616.7 deactivate_done
+11010627.4 play
+11013642.5 play
+11013909.3 deactivate_scheduled
+11014014.5 deactivate_fired inUse=false active=true
+11014029.0 deactivate_done
+11014060.1 play
+11014692.5 play
+11015470.4 deactivate_scheduled
+11015562.4 play
+11015576.2 deactivate_fired inUse=false active=true
+11015628.2 deactivate_done
+11018558.8 play
+11018775.7 deactivate_scheduled
+11018880.9 deactivate_fired inUse=false active=true
+11018936.6 deactivate_done
+11018959.7 play
+11019575.4 play
+11019792.3 deactivate_scheduled
+11019897.2 deactivate_fired inUse=false active=true
+11019929.0 play
+11019934.4 deactivate_done
+11022941.9 play
+11023175.4 deactivate_scheduled
+11023280.7 deactivate_fired inUse=false active=true
+11023312.7 play
+11023330.6 deactivate_done
+11026325.1 play
+11027096.9 deactivate_scheduled
+11027201.2 deactivate_fired inUse=false active=true
+11027228.9 play
+11027258.2 deactivate_done
+11030241.6 play
+11030458.5 deactivate_scheduled
+11030563.6 deactivate_fired inUse=false active=true
+11030604.2 deactivate_done
+11030776.8 play
+11031391.6 play
+11032174.5 deactivate_scheduled
+11032176.3 play
+11032274.9 deactivate_fired inUse=true active=true
+11032808.3 play
+11033025.2 deactivate_scheduled
+11033126.3 deactivate_fired inUse=false active=true
+11033203.5 deactivate_done
+11033210.0 play
+11036225.0 play
+11036491.8 deactivate_scheduled
+11036578.3 play
+11036592.4 deactivate_fired inUse=false active=true
+11036604.1 deactivate_done
+11039591.4 play
+11039808.2 deactivate_scheduled
+11039877.9 play
+11039909.1 deactivate_fired inUse=true active=true
